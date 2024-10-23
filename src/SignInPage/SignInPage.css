@@ -1,0 +1,122 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: "Arial", sans-serif;
+    background: url('./bg.png') no-repeat center center fixed;
+    background-size: cover;
+    color: #d9d9d9;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+  }
+  
+  .container {
+    text-align: center;
+    background-color: #1f1f1f;
+    border-radius: 10px;
+    width: 80vw; 
+    height: 60vh;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .header {
+    margin-bottom:80px; /* Space between header and input */
+  }
+  
+  .header h1 {
+    font-size: 3.5rem;
+    color: #d9d9d9;
+    margin-bottom: 10px;
+  }
+  
+  .header .inspired {
+    color: #9147ff;
+    font-size: 3.5rem;
+  }
+  
+  .tagline {
+    color: #d9d9d9;
+    margin-top: 10px;
+    font-size: 1.2rem;
+    font-weight: bold;
+  }
+  
+  .form {
+    margin-top: 30px;
+    display: flex;
+    flex-direction: column;
+    align-items: center; 
+    justify-content: center;
+  }
+  
+  .input-group {
+    margin-bottom: 20px;
+    text-align: center;
+    width: 120%;
+    display: flex;
+  }
+  
+  .input-group input {
+    width: 1000px;
+    margin: 0 auto;
+    padding: 12px;
+    font-size: 1.1rem;
+    height: 70px;
+    background-color: #fff;
+    color: #333;
+    border-radius: 20px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    transition: border-color 0.3s;
+  }
+  
+  .input-group input:focus {
+    outline: none;
+    border-color: #752dcc;
+    box-shadow: 0 2px 4px rgba(117, 45, 204, 0.3);
+  }
+  
+  .btn {
+    display: inline-block;
+    padding: 15px 40px;
+  
+    background-color: #9147ff;
+    color: #d9d9d9;
+    text-decoration: none;
+    font-size: 1.25rem;
+    border-radius: 5px;
+    font-weight: bold;
+    cursor: pointer;
+    border: none;
+  }
+  
+  .btn:hover {
+    background-color: #752dcc;
+  }
+  
+  .footer {
+    margin-top: 20px;
+  }
+  
+  .footer-text {
+    color: #d9d9d9;
+    font-size: 1rem;
+  }
+  
+  .footer-text .highlight-purple {
+    color: #9147ff;
+    text-decoration: none;
+  }
+  
+  .footer-text .highlight-purple:hover {
+    text-decoration: underline;
+  }
