@@ -1,0 +1,130 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  .profile-page-wrapper {
+    font-family: "Arial", sans-serif;
+    background-color: #282828;
+    color: #e0e0e0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 40px;
+    border-radius: 12px;
+    width: 90vw;
+    max-width: 1200px;
+    margin: 20px auto;
+  }
+  
+  .profile-header-area {
+    margin-bottom: 40px;
+    text-align: center;
+  }
+  
+  .profile-header-area h1 {
+    font-size: 3.2rem;
+    color: #e0e0e0;
+  }
+  
+  .header-highlight {
+    color: #7c4dff;
+  }
+  
+  .profile-content-area {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: flex-start;
+    width: 100%;
+  }
+  
+  .profile-image-area {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+  }
+  
+  .profile-image-display {
+    width: 270px; 
+    height: 270px; 
+    border-radius: 50%; 
+    border: 6px solid #7c4dff;
+}
+
+  .profile-form-area {
+    flex: 2;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .profile-form-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .input-group {
+    margin-bottom: 25px;
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    max-width: 600px;
+  }
+  
+  .input-group input {
+    padding: 14px;
+    font-size: 1.2rem;
+    height: 65px;
+    background-color: #ffffff;
+    color: #333;
+    border-radius: 25px;
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.2);
+    transition: border-color 0.3s, box-shadow 0.3s;
+  }
+  
+  .input-group input:focus {
+    outline: none;
+    border-color: #6f2cad;
+    box-shadow: 0 4px 8px rgba(117, 45, 204, 0.4);
+  }
+  
+  .update-profile-btn {
+    padding: 16px 35px;
+    background-color: #7c4dff;
+    color: #ffffff;
+    font-size: 1.2rem;
+    border-radius: 5px;
+    font-weight: bold;
+    cursor: pointer;
+    border: none;
+    transition: background-color 0.3s;
+  }
+  
+  .update-profile-btn:hover {
+    background-color: #6f2cad;
+  }
+  
+  .image-upload-label {
+    background-color: #7c4dff;
+    color: #ffffff;
+    padding: 10px 22px;
+    font-size: 1.1rem;
+    border-radius: 10px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+  
+  .image-upload-label:hover {
+    background-color: #6f2cad;
+  }
+  
+  .hidden-file-input {
+    display: none;
+  }

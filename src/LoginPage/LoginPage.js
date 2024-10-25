@@ -1,6 +1,6 @@
 import React from "react";
-import { Link } from "react-router-dom"; // Import Link from react-router-dom
-import "./LoginPage.css"; // Make sure to create this CSS file in the same folder
+import { Link } from "react-router-dom"; 
+import "./LoginPage.css"; 
 
 const LoginPage = () => {
   return (

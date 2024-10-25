@@ -85,6 +85,8 @@
 }
 
 .input-set input {
+  width: 100%; /* Set width to 100% for all input fields */
+  max-width: 500px; /* or any desired max width */
   padding: 12px;
   font-size: 1.1rem;
   height: 70px;
@@ -101,14 +103,6 @@
   box-shadow: 0 2px 4px rgba(117, 45, 204, 0.3);
 }
 
-#username,
-#email,
-#confirm-email,
-#password,
-#confirm-password {
-  width: 500px;
-}
-
 .submit-btn {
   display: inline-block;
   padding: 15px 40px;
@@ -120,6 +114,7 @@
   cursor: pointer;
   border: none;
   margin-top: 100px;
+  text-decoration: none;
 }
 
 .submit-btn:hover {
